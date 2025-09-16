@@ -1,0 +1,17 @@
+[package]
+name = "peelswap_fungible_asset"
+version = "1.0.0"
+authors = ["Vakhtanh Chikhladze (the.vaho1337@gmail.com)"]
+
+[addresses]
+peelswap = "_"
+
+[dev-addresses]
+peelswap = "0xeda50089567df24c65db892ef0d680946feb739a01085ececec1009c9eb796af"
+
+[dependencies.CedraFramework]
+git = "https://github.com/cedra-labs/cedra-framework.git"
+rev = "main"
+subdir = "cedra-framework"
+
+[dev-dependencies]
