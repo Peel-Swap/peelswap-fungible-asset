@@ -18,7 +18,7 @@ module peelswap::peelswap_fungible_asset{
     use cedra_framework::object::{Self, Object};
     use cedra_framework::primary_fungible_store;
     use cedra_framework::coin;
-    use cedra_framework::cedra_coin::{Self, CedraCoin};
+    use cedra_framework::cedra_coin::{CedraCoin};
     use std::error;
     use std::signer;
     use std::string::utf8;
@@ -151,6 +151,8 @@ module peelswap::peelswap_fungible_asset{
     // =====================
     // Tests (inline)
     // =====================
+    #[test_only]
+    use cedra_framework::cedra_coin;
     #[test_only]
     use cedra_framework::account;
     #[test_only]
