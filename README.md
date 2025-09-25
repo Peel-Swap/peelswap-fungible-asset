@@ -9,7 +9,7 @@ The token is created as a managed `fungible_asset` with a public mint mechanism 
 | Network        | Module Address |
 |----------------|--------------------------------------------------------------------------------|
 | Cedra Devnet   | `0xeda50089567df24c65db892ef0d680946feb739a01085ececec1009c9eb796af::peelswap_fungible_asset` |
-| Cedra Testnet  | _WIP_  |
+| Cedra Testnet  | `0xeda50089567df24c65db892ef0d680946feb739a01085ececec1009c9eb796af::peelswap_fungible_asset` |
 | Cedra Mainnet  | _WIP_  |
 
 
